@@ -1,0 +1,49 @@
+/* Carousel container */
+.parent {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Individual slide style */
+.slider {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 10px; /* Adjust spacing between images */
+}
+
+/* Image styles */
+.slider img {
+  width: 100%;
+  height: auto; /* Ensure image retains its aspect ratio */
+  max-height: 500px; /* Limit height to fit well */
+  object-fit: contain; /* Prevent images from being cut off */
+  border-radius: 8px;
+}
+
+/* Custom dot list style */
+.custom-dot-list-style {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.custom-dot-list-style button {
+  border: none;
+  background: #ddd;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 5px;
+  padding: 0;
+  transition: background 0.3s ease;
+}
+
+.custom-dot-list-style button:hover {
+  background: #999;
+}
+
+.react-multi-carousel-dot--active button {
+  background: #333 !important;
+}
