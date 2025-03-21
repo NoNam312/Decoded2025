@@ -1,6 +1,5 @@
 # Decoded2025
 
-
 ## 🚀 About Decoded
 Decoded is an annual **Semester 1** workshop designed for beginner programmers to dive into **React** by building modular and reusable **React Widgets**.
 
@@ -15,7 +14,7 @@ Throughout the workshop, students gain hands-on experience in designing and impl
 ### Step 1: Install Node.js
 React requires **Node.js**, which comes bundled with **npm (Node Package Manager)**.
 
-📥 **Download & Install the latest LTS version from:** [Node.js Official Website](https://nodejs.org/en)
+📝 **Download & Install the latest LTS version from:** [Node.js Official Website](https://nodejs.org/en)
 
 ### Step 2: Verify Installation
 Once installed, check if Node.js and npm are installed properly by running the following commands in your terminal:
@@ -25,19 +24,15 @@ node -v  # Displays Node.js version
 npm -v   # Displays npm version
 ```
 
-### Step 3: Create a React App
-1. Create a new folder and open it in **Visual Studio Code**.
-2. Open the **terminal** in VS Code and run the following command:
+### Step 3: Set Up the Project
+1. **Download the project folder as a ZIP file** from the provided link.
+2. **Extract the ZIP file** to your desired location.
+3. **Open the extracted folder** in **Visual Studio Code**.
+4. **Open the terminal** in VS Code and run the following commands:
 
 ```sh
-npx create-react-app my-app
-```
-
-3. Once the setup is complete, navigate into your project and start the development server:
-
-```sh
-cd my-app
-npm start
+npm install  # Installs dependencies
+npm run dev  # Starts the development server
 ```
 
 This will launch the React app in your default browser.
@@ -59,7 +54,6 @@ npm -v
 ```
 
 ---
-
 
 🚀 **Happy Coding!** 🎉
 
