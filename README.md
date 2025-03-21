@@ -55,5 +55,31 @@ npm -v
 
 ---
 
-🚀 **Happy Coding!** 🎉
+## 🔧 Troubleshooting (Mac)
+If you are on **Mac**, installation and setup are mostly the same. However, if you face issues, try the following:
 
+1. **Ensure Node.js is installed** by running:
+
+```sh
+brew install node  # If Homebrew is installed
+```
+
+2. If `npm install` fails due to permission errors, try running:
+
+```sh
+sudo npm install --legacy-peer-deps
+```
+
+3. If the development server doesn't start, use:
+
+```sh
+rm -rf node_modules package-lock.json
+npm install
+npm run dev
+```
+
+This ensures dependencies are properly installed and refreshed.
+
+---
+
+🚀 **Happy Coding!** 🎉
