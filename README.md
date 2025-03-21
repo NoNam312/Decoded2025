@@ -1,6 +1,5 @@
 # Decoded2025
 
-![Decoded Banner](https://your-image-url.com/banner.png) <!-- Replace with an actual image URL if needed -->
 
 ## 🚀 About Decoded
 Decoded is an annual **Semester 1** workshop designed for beginner programmers to dive into **React** by building modular and reusable **React Widgets**.
