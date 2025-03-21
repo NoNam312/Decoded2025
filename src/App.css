@@ -1,32 +1,132 @@
+/* App.css */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f4f4f4;
   margin: 0;
 }
+
 .converter {
   background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 500px;
+  max-width: 90%;
+  animation: fadeIn 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  color: #333;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
   text-align: center;
 }
-select, input, button {
-  margin: 10px;
-  padding: 10px;
-  font-size: 16px;
+
+input:focus {
+  border-color: #6e8efb;
+  box-shadow: 0 0 8px rgba(110, 142, 251, 0.5);
 }
+
+/* Align currency selectors in a single line */
+.select-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+select {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  background: white;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* Style the 'To' text */
+span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+  margin: 0 5px;
+  min-width: 30px;
+  text-align: center;
+}
+
+select:focus {
+  border-color: #a777e3;
+  box-shadow: 0 0 8px rgba(167, 119, 227, 0.5);
+}
+
 button {
-  background-color: #007bff;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
   color: white;
   border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
   cursor: pointer;
-  padding: 10px 15px;
-  border-radius: 5px;
+  transition: 0.3s;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 10px;
 }
+
 button:hover {
-  background-color: #0056b3;
+  background: linear-gradient(135deg, #5a79e5, #9059d4);
 }
+
+h3 {
+  color: #333;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  background: #f4f4f4;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
